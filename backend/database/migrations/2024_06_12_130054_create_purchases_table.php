@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::create('purchases', function (Blueprint $table) {
             $table->id();
-            $table->foreignId("shop_id")->constrained("shop", "id");
+            $table->foreignId("shop_id")->constrained("shops");
             $table->string("amount");
             $table->string("document");
             $table->date("purchase_date");
