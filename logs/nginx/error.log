@@ -1,0 +1,274 @@
+2024/06/12 08:05:07 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2024/06/12 08:05:07 [notice] 1#1: using the "epoll" event method
+2024/06/12 08:05:07 [notice] 1#1: nginx/1.20.2
+2024/06/12 08:05:07 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/06/12 08:05:07 [notice] 1#1: OS: Linux 6.3.13-linuxkit
+2024/06/12 08:05:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/06/12 08:05:07 [notice] 1#1: start worker processes
+2024/06/12 08:05:07 [notice] 1#1: start worker process 30
+2024/06/12 08:05:07 [notice] 1#1: start worker process 31
+2024/06/12 08:05:07 [notice] 1#1: start worker process 32
+2024/06/12 08:05:07 [notice] 1#1: start worker process 33
+2024/06/12 08:05:07 [notice] 1#1: start worker process 34
+2024/06/12 08:05:07 [notice] 1#1: start worker process 35
+2024/06/12 08:05:07 [notice] 1#1: start worker process 36
+2024/06/12 08:05:07 [notice] 1#1: start worker process 37
+2024/06/12 08:05:13 [error] 31#31: *2 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/06/12 08:05:13 [error] 30#30: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/06/12 08:05:14 [error] 31#31: *4 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/06/12 08:05:14 [error] 30#30: *3 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/06/12 08:05:14 [error] 30#30: *5 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/06/12 08:05:15 [error] 30#30: *6 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/06/12 08:05:18 [error] 30#30: *8 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/06/12 08:05:18 [error] 30#30: *7 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/06/12 08:06:13 [error] 30#30: *10 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/06/12 08:06:13 [error] 30#30: *9 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/06/12 08:06:14 [error] 31#31: *12 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/06/12 08:06:14 [error] 30#30: *11 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/06/12 08:06:14 [error] 30#30: *14 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/06/12 08:06:14 [error] 30#30: *13 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/06/12 08:06:14 [error] 30#30: *16 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/06/12 08:06:15 [error] 30#30: *15 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/06/12 08:06:15 [error] 31#31: *17 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/06/12 08:06:15 [error] 30#30: *19 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/06/12 08:06:15 [error] 30#30: *18 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/06/12 08:06:22 [error] 30#30: *20 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/06/12 08:06:22 [error] 30#30: *21 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/06/12 08:06:22 [error] 31#31: *23 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/06/12 08:06:22 [error] 30#30: *22 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/06/12 08:06:28 [error] 30#30: *25 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/06/12 08:06:28 [error] 30#30: *24 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/06/12 08:06:29 [error] 30#30: *26 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/06/12 08:06:29 [error] 30#30: *27 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/06/12 08:06:48 [error] 30#30: *29 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/06/12 08:06:48 [error] 30#30: *28 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/06/12 08:06:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/06/12 08:06:55 [notice] 30#30: gracefully shutting down
+2024/06/12 08:06:55 [notice] 32#32: gracefully shutting down
+2024/06/12 08:06:55 [notice] 34#34: gracefully shutting down
+2024/06/12 08:06:55 [notice] 31#31: gracefully shutting down
+2024/06/12 08:06:55 [notice] 33#33: gracefully shutting down
+2024/06/12 08:06:55 [notice] 35#35: gracefully shutting down
+2024/06/12 08:06:55 [notice] 36#36: gracefully shutting down
+2024/06/12 08:06:55 [notice] 37#37: gracefully shutting down
+2024/06/12 08:06:55 [notice] 30#30: exiting
+2024/06/12 08:06:55 [notice] 32#32: exiting
+2024/06/12 08:06:55 [notice] 34#34: exiting
+2024/06/12 08:06:55 [notice] 31#31: exiting
+2024/06/12 08:06:55 [notice] 33#33: exiting
+2024/06/12 08:06:55 [notice] 35#35: exiting
+2024/06/12 08:06:55 [notice] 36#36: exiting
+2024/06/12 08:06:55 [notice] 37#37: exiting
+2024/06/12 08:06:55 [notice] 30#30: exit
+2024/06/12 08:06:55 [notice] 32#32: exit
+2024/06/12 08:06:55 [notice] 34#34: exit
+2024/06/12 08:06:55 [notice] 31#31: exit
+2024/06/12 08:06:55 [notice] 33#33: exit
+2024/06/12 08:06:55 [notice] 35#35: exit
+2024/06/12 08:06:55 [notice] 36#36: exit
+2024/06/12 08:06:55 [notice] 37#37: exit
+2024/06/12 08:06:55 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/06/12 08:06:55 [notice] 1#1: worker process 32 exited with code 0
+2024/06/12 08:06:55 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 08:06:55 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/06/12 08:06:55 [notice] 1#1: worker process 31 exited with code 0
+2024/06/12 08:06:55 [notice] 1#1: worker process 34 exited with code 0
+2024/06/12 08:06:55 [notice] 1#1: worker process 37 exited with code 0
+2024/06/12 08:06:55 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 08:06:55 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2024/06/12 08:06:55 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/06/12 08:06:55 [notice] 1#1: worker process 30 exited with code 0
+2024/06/12 08:06:55 [notice] 1#1: worker process 33 exited with code 0
+2024/06/12 08:06:55 [notice] 1#1: worker process 35 exited with code 0
+2024/06/12 08:06:55 [notice] 1#1: worker process 36 exited with code 0
+2024/06/12 08:06:55 [notice] 1#1: exit
+2024/06/12 08:06:56 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2024/06/12 08:06:56 [notice] 1#1: using the "epoll" event method
+2024/06/12 08:06:56 [notice] 1#1: nginx/1.20.2
+2024/06/12 08:06:56 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/06/12 08:06:56 [notice] 1#1: OS: Linux 6.3.13-linuxkit
+2024/06/12 08:06:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/06/12 08:06:56 [notice] 1#1: start worker processes
+2024/06/12 08:06:56 [notice] 1#1: start worker process 30
+2024/06/12 08:06:56 [notice] 1#1: start worker process 31
+2024/06/12 08:06:56 [notice] 1#1: start worker process 32
+2024/06/12 08:06:56 [notice] 1#1: start worker process 33
+2024/06/12 08:06:56 [notice] 1#1: start worker process 34
+2024/06/12 08:06:56 [notice] 1#1: start worker process 35
+2024/06/12 08:06:56 [notice] 1#1: start worker process 36
+2024/06/12 08:06:56 [notice] 1#1: start worker process 37
+2024/06/12 08:06:58 [error] 31#31: *1 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/06/12 08:06:58 [error] 30#30: *2 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/06/12 08:06:59 [error] 31#31: *4 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/06/12 08:06:59 [error] 30#30: *3 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/06/12 08:06:59 [error] 31#31: *6 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/06/12 08:06:59 [error] 30#30: *5 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/06/12 08:06:59 [error] 31#31: *8 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/06/12 08:06:59 [error] 30#30: *7 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/06/12 08:07:00 [error] 30#30: *9 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/06/12 08:07:00 [error] 31#31: *10 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/06/12 08:08:01 [error] 30#30: *12 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/06/12 08:08:01 [error] 30#30: *11 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/06/12 08:08:24 [error] 30#30: *14 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/06/12 08:08:25 [error] 30#30: *13 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/06/12 08:08:25 [error] 30#30: *15 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET / HTTP/1.1", host: "localhost"
+2024/06/12 08:08:25 [error] 30#30: *16 rewrite or internal redirection cycle while internally redirecting to "/index.html", client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/06/12 08:08:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/06/12 08:08:55 [notice] 30#30: gracefully shutting down
+2024/06/12 08:08:55 [notice] 33#33: gracefully shutting down
+2024/06/12 08:08:55 [notice] 34#34: gracefully shutting down
+2024/06/12 08:08:55 [notice] 32#32: gracefully shutting down
+2024/06/12 08:08:55 [notice] 36#36: gracefully shutting down
+2024/06/12 08:08:55 [notice] 31#31: gracefully shutting down
+2024/06/12 08:08:55 [notice] 37#37: gracefully shutting down
+2024/06/12 08:08:55 [notice] 35#35: gracefully shutting down
+2024/06/12 08:08:55 [notice] 30#30: exiting
+2024/06/12 08:08:55 [notice] 33#33: exiting
+2024/06/12 08:08:55 [notice] 34#34: exiting
+2024/06/12 08:08:55 [notice] 32#32: exiting
+2024/06/12 08:08:55 [notice] 36#36: exiting
+2024/06/12 08:08:55 [notice] 31#31: exiting
+2024/06/12 08:08:55 [notice] 37#37: exiting
+2024/06/12 08:08:55 [notice] 35#35: exiting
+2024/06/12 08:08:55 [notice] 30#30: exit
+2024/06/12 08:08:55 [notice] 33#33: exit
+2024/06/12 08:08:55 [notice] 34#34: exit
+2024/06/12 08:08:55 [notice] 32#32: exit
+2024/06/12 08:08:55 [notice] 36#36: exit
+2024/06/12 08:08:55 [notice] 31#31: exit
+2024/06/12 08:08:55 [notice] 37#37: exit
+2024/06/12 08:08:55 [notice] 35#35: exit
+2024/06/12 08:08:55 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/06/12 08:08:55 [notice] 1#1: worker process 30 exited with code 0
+2024/06/12 08:08:55 [notice] 1#1: worker process 31 exited with code 0
+2024/06/12 08:08:55 [notice] 1#1: worker process 32 exited with code 0
+2024/06/12 08:08:55 [notice] 1#1: worker process 33 exited with code 0
+2024/06/12 08:08:55 [notice] 1#1: worker process 37 exited with code 0
+2024/06/12 08:08:55 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 08:08:55 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/06/12 08:08:55 [notice] 1#1: worker process 34 exited with code 0
+2024/06/12 08:08:55 [notice] 1#1: worker process 35 exited with code 0
+2024/06/12 08:08:55 [notice] 1#1: worker process 36 exited with code 0
+2024/06/12 08:08:55 [notice] 1#1: exit
+2024/06/12 08:09:22 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2024/06/12 08:09:22 [notice] 1#1: using the "epoll" event method
+2024/06/12 08:09:22 [notice] 1#1: nginx/1.20.2
+2024/06/12 08:09:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/06/12 08:09:22 [notice] 1#1: OS: Linux 6.3.13-linuxkit
+2024/06/12 08:09:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/06/12 08:09:22 [notice] 1#1: start worker processes
+2024/06/12 08:09:22 [notice] 1#1: start worker process 30
+2024/06/12 08:09:22 [notice] 1#1: start worker process 31
+2024/06/12 08:09:22 [notice] 1#1: start worker process 32
+2024/06/12 08:09:22 [notice] 1#1: start worker process 33
+2024/06/12 08:09:22 [notice] 1#1: start worker process 34
+2024/06/12 08:09:22 [notice] 1#1: start worker process 35
+2024/06/12 08:09:22 [notice] 1#1: start worker process 36
+2024/06/12 08:09:22 [notice] 1#1: start worker process 37
+2024/06/12 08:13:55 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/06/12 08:13:55 [notice] 30#30: gracefully shutting down
+2024/06/12 08:13:55 [notice] 31#31: gracefully shutting down
+2024/06/12 08:13:55 [notice] 35#35: gracefully shutting down
+2024/06/12 08:13:55 [notice] 35#35: exiting
+2024/06/12 08:13:55 [notice] 34#34: gracefully shutting down
+2024/06/12 08:13:55 [notice] 33#33: gracefully shutting down
+2024/06/12 08:13:55 [notice] 32#32: gracefully shutting down
+2024/06/12 08:13:55 [notice] 36#36: gracefully shutting down
+2024/06/12 08:13:55 [notice] 37#37: gracefully shutting down
+2024/06/12 08:13:55 [notice] 31#31: exiting
+2024/06/12 08:13:55 [notice] 35#35: exit
+2024/06/12 08:13:55 [notice] 34#34: exiting
+2024/06/12 08:13:55 [notice] 33#33: exiting
+2024/06/12 08:13:55 [notice] 32#32: exiting
+2024/06/12 08:13:55 [notice] 36#36: exiting
+2024/06/12 08:13:55 [notice] 37#37: exiting
+2024/06/12 08:13:55 [notice] 31#31: exit
+2024/06/12 08:13:55 [notice] 34#34: exit
+2024/06/12 08:13:55 [notice] 33#33: exit
+2024/06/12 08:13:55 [notice] 32#32: exit
+2024/06/12 08:13:55 [notice] 36#36: exit
+2024/06/12 08:13:55 [notice] 37#37: exit
+2024/06/12 08:13:55 [notice] 1#1: signal 17 (SIGCHLD) received from 35
+2024/06/12 08:13:55 [notice] 1#1: worker process 33 exited with code 0
+2024/06/12 08:13:55 [notice] 1#1: worker process 35 exited with code 0
+2024/06/12 08:13:55 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 08:13:55 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2024/06/12 08:13:55 [notice] 1#1: worker process 31 exited with code 0
+2024/06/12 08:13:55 [notice] 1#1: worker process 32 exited with code 0
+2024/06/12 08:13:55 [notice] 1#1: worker process 34 exited with code 0
+2024/06/12 08:13:55 [notice] 1#1: worker process 36 exited with code 0
+2024/06/12 08:13:55 [notice] 1#1: worker process 37 exited with code 0
+2024/06/12 08:13:55 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 08:13:55 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/06/12 08:19:11 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2024/06/12 08:19:11 [notice] 1#1: using the "epoll" event method
+2024/06/12 08:19:11 [notice] 1#1: nginx/1.20.2
+2024/06/12 08:19:11 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/06/12 08:19:11 [notice] 1#1: OS: Linux 6.3.13-linuxkit
+2024/06/12 08:19:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/06/12 08:19:11 [notice] 1#1: start worker processes
+2024/06/12 08:19:11 [notice] 1#1: start worker process 30
+2024/06/12 08:19:11 [notice] 1#1: start worker process 31
+2024/06/12 08:19:11 [notice] 1#1: start worker process 32
+2024/06/12 08:19:11 [notice] 1#1: start worker process 33
+2024/06/12 08:19:11 [notice] 1#1: start worker process 34
+2024/06/12 08:19:11 [notice] 1#1: start worker process 35
+2024/06/12 08:19:11 [notice] 1#1: start worker process 36
+2024/06/12 08:19:11 [notice] 1#1: start worker process 37
+2024/06/12 08:22:25 [warn] 30#30: *2 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 192.168.65.1, server: api.localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.29.0.4:9000", host: "api.localhost"
+2024/06/12 08:22:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/06/12 08:22:52 [notice] 30#30: gracefully shutting down
+2024/06/12 08:22:52 [notice] 31#31: gracefully shutting down
+2024/06/12 08:22:52 [notice] 35#35: gracefully shutting down
+2024/06/12 08:22:52 [notice] 34#34: gracefully shutting down
+2024/06/12 08:22:52 [notice] 33#33: gracefully shutting down
+2024/06/12 08:22:52 [notice] 36#36: gracefully shutting down
+2024/06/12 08:22:52 [notice] 36#36: exiting
+2024/06/12 08:22:52 [notice] 32#32: gracefully shutting down
+2024/06/12 08:22:52 [notice] 37#37: gracefully shutting down
+2024/06/12 08:22:52 [notice] 31#31: exiting
+2024/06/12 08:22:52 [notice] 35#35: exiting
+2024/06/12 08:22:52 [notice] 34#34: exiting
+2024/06/12 08:22:52 [notice] 33#33: exiting
+2024/06/12 08:22:52 [notice] 36#36: exit
+2024/06/12 08:22:52 [notice] 32#32: exiting
+2024/06/12 08:22:52 [notice] 37#37: exiting
+2024/06/12 08:22:52 [notice] 31#31: exit
+2024/06/12 08:22:52 [notice] 35#35: exit
+2024/06/12 08:22:52 [notice] 34#34: exit
+2024/06/12 08:22:52 [notice] 33#33: exit
+2024/06/12 08:22:52 [notice] 32#32: exit
+2024/06/12 08:22:52 [notice] 37#37: exit
+2024/06/12 08:22:52 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2024/06/12 08:22:52 [notice] 1#1: worker process 33 exited with code 0
+2024/06/12 08:22:52 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 08:22:52 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/06/12 08:22:52 [notice] 1#1: worker process 31 exited with code 0
+2024/06/12 08:22:52 [notice] 1#1: worker process 35 exited with code 0
+2024/06/12 08:22:52 [notice] 1#1: worker process 36 exited with code 0
+2024/06/12 08:22:52 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 08:22:52 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2024/06/12 08:22:52 [notice] 1#1: worker process 32 exited with code 0
+2024/06/12 08:22:52 [notice] 1#1: worker process 34 exited with code 0
+2024/06/12 08:22:52 [notice] 1#1: worker process 37 exited with code 0
+2024/06/12 08:22:52 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 08:22:52 [notice] 30#30: exiting
+2024/06/12 08:22:52 [notice] 30#30: exit
+2024/06/12 08:22:52 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/06/12 08:22:52 [notice] 1#1: worker process 30 exited with code 0
+2024/06/12 08:22:52 [notice] 1#1: exit
+2024/06/12 08:23:31 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2024/06/12 08:23:31 [notice] 1#1: using the "epoll" event method
+2024/06/12 08:23:31 [notice] 1#1: nginx/1.20.2
+2024/06/12 08:23:31 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/06/12 08:23:31 [notice] 1#1: OS: Linux 6.3.13-linuxkit
+2024/06/12 08:23:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/06/12 08:23:31 [notice] 1#1: start worker processes
+2024/06/12 08:23:31 [notice] 1#1: start worker process 30
+2024/06/12 08:23:31 [notice] 1#1: start worker process 31
+2024/06/12 08:23:31 [notice] 1#1: start worker process 32
+2024/06/12 08:23:31 [notice] 1#1: start worker process 33
+2024/06/12 08:23:31 [notice] 1#1: start worker process 34
+2024/06/12 08:23:31 [notice] 1#1: start worker process 35
+2024/06/12 08:23:31 [notice] 1#1: start worker process 36
+2024/06/12 08:23:31 [notice] 1#1: start worker process 37
