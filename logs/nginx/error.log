@@ -273,3 +273,57 @@
 2024/06/12 08:23:31 [notice] 1#1: start worker process 36
 2024/06/12 08:23:31 [notice] 1#1: start worker process 37
 2024/06/12 08:23:36 [warn] 30#30: *2 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 192.168.65.1, server: api.localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.30.0.4:9000", host: "api.localhost"
+2024/06/12 09:01:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/06/12 09:01:03 [notice] 30#30: gracefully shutting down
+2024/06/12 09:01:03 [notice] 32#32: gracefully shutting down
+2024/06/12 09:01:03 [notice] 31#31: gracefully shutting down
+2024/06/12 09:01:03 [notice] 33#33: gracefully shutting down
+2024/06/12 09:01:03 [notice] 36#36: gracefully shutting down
+2024/06/12 09:01:03 [notice] 34#34: gracefully shutting down
+2024/06/12 09:01:03 [notice] 37#37: gracefully shutting down
+2024/06/12 09:01:03 [notice] 35#35: gracefully shutting down
+2024/06/12 09:01:03 [notice] 30#30: exiting
+2024/06/12 09:01:03 [notice] 32#32: exiting
+2024/06/12 09:01:03 [notice] 31#31: exiting
+2024/06/12 09:01:03 [notice] 33#33: exiting
+2024/06/12 09:01:03 [notice] 36#36: exiting
+2024/06/12 09:01:03 [notice] 34#34: exiting
+2024/06/12 09:01:03 [notice] 37#37: exiting
+2024/06/12 09:01:03 [notice] 35#35: exiting
+2024/06/12 09:01:03 [notice] 30#30: exit
+2024/06/12 09:01:03 [notice] 32#32: exit
+2024/06/12 09:01:03 [notice] 31#31: exit
+2024/06/12 09:01:03 [notice] 33#33: exit
+2024/06/12 09:01:03 [notice] 36#36: exit
+2024/06/12 09:01:03 [notice] 34#34: exit
+2024/06/12 09:01:03 [notice] 37#37: exit
+2024/06/12 09:01:03 [notice] 35#35: exit
+2024/06/12 09:01:03 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2024/06/12 09:01:03 [notice] 1#1: worker process 33 exited with code 0
+2024/06/12 09:01:03 [notice] 1#1: worker process 34 exited with code 0
+2024/06/12 09:01:03 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 09:01:03 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/06/12 09:01:03 [notice] 1#1: worker process 31 exited with code 0
+2024/06/12 09:01:03 [notice] 1#1: signal 29 (SIGIO) received
+2024/06/12 09:01:03 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/06/12 09:01:03 [notice] 1#1: worker process 30 exited with code 0
+2024/06/12 09:01:03 [notice] 1#1: worker process 35 exited with code 0
+2024/06/12 09:01:03 [notice] 1#1: worker process 32 exited with code 0
+2024/06/12 09:01:03 [notice] 1#1: worker process 36 exited with code 0
+2024/06/12 09:01:03 [notice] 1#1: worker process 37 exited with code 0
+2024/06/12 09:01:03 [notice] 1#1: exit
+2024/06/12 12:54:57 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2024/06/12 12:54:57 [notice] 1#1: using the "epoll" event method
+2024/06/12 12:54:57 [notice] 1#1: nginx/1.20.2
+2024/06/12 12:54:57 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/06/12 12:54:57 [notice] 1#1: OS: Linux 6.3.13-linuxkit
+2024/06/12 12:54:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/06/12 12:54:57 [notice] 1#1: start worker processes
+2024/06/12 12:54:57 [notice] 1#1: start worker process 30
+2024/06/12 12:54:57 [notice] 1#1: start worker process 31
+2024/06/12 12:54:57 [notice] 1#1: start worker process 32
+2024/06/12 12:54:57 [notice] 1#1: start worker process 33
+2024/06/12 12:54:57 [notice] 1#1: start worker process 34
+2024/06/12 12:54:57 [notice] 1#1: start worker process 35
+2024/06/12 12:54:57 [notice] 1#1: start worker process 36
+2024/06/12 12:54:57 [notice] 1#1: start worker process 37
