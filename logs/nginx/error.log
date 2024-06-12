@@ -272,3 +272,4 @@
 2024/06/12 08:23:31 [notice] 1#1: start worker process 35
 2024/06/12 08:23:31 [notice] 1#1: start worker process 36
 2024/06/12 08:23:31 [notice] 1#1: start worker process 37
+2024/06/12 08:23:36 [warn] 30#30: *2 an upstream response is buffered to a temporary file /var/cache/nginx/fastcgi_temp/1/00/0000000001 while reading upstream, client: 192.168.65.1, server: api.localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://172.30.0.4:9000", host: "api.localhost"
